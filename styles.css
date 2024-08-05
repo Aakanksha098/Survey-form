@@ -1,0 +1,101 @@
+body{
+    background-color:#F3FEB8;
+   font-family: "Poppins", sans-serif;
+   text-align: center;
+  }
+  
+  form{
+    max-width: 700px;
+    text-align: left;
+    border: 2px solid black;
+    border-radius: 15px;
+    margin:auto;
+    padding:32px 46px;
+  }
+  #title{
+    color:#E4003A
+  }
+  #title span{
+    color:FFB200
+  }
+  .form-control{
+    margin-bottom:10px;
+    font-size:15px;
+  }
+  .click{
+    margin-bottom:15px;
+  
+  }
+  .clicktext{
+    margin-bottom:30px;
+  }
+  #dropdown{
+    font-size:15px;
+  }
+  .checkbox{
+    padding-bottom:10px;
+  }
+  button{
+    font-size:20px;
+    margin-top:20px;
+   background-color:#468585;
+   color:white;
+  }
+  
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+
+    #title {
+        font-size: 24px;
+    }
+
+    #description {
+        font-size: 16px;
+    }
+
+    #survey-form {
+        padding: 10px;
+    }
+
+    .form-group,
+    .improve,
+    .suggestion {
+        margin-bottom: 15px;
+    }
+
+    .form-control {
+        width: 100%;
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    #dropdown {
+        width: 100%;
+    }
+
+    .checkbox label,
+    .form-group label,
+    .suggestion p,
+    .improve p {
+        font-size: 14px;
+    }
+
+    textarea {
+        width: 100%;
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    button {
+        width: 100%;
+        padding: 10px;
+        font-size: 16px;
+    }
+}
+
+  
+  
+  
+  
